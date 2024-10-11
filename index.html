@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Entry - Download</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Body and Container Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #121212, #2C3E50);
+            color: #f1c40f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative; /* Added to position the footer correctly */
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 15px;
+            background-color: rgba(31, 31, 31, 0.9);
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+            width: 90%;
+            max-width: 700px;
+            transition: all 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.8);
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.5rem;
+            color: #f39c12;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #ecf0f1;
+            font-weight: 300;
+            margin: 10px 0;
+        }
+
+        strong {
+            color: #f1c40f;
+            font-weight: 700;
+        }
+
+        /* Download Section */
+        .download-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Windows Logo */
+        .windows-logo img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s;
+        }
+
+        .windows-logo img:hover {
+            transform: rotate(360deg);
+        }
+
+        /* Download Button */
+        .download-btn {
+            padding: 15px 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: #f1c40f;
+            color: #121212;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .download-btn:hover {
+            background-color: #e67e22;
+            transform: scale(1.05);
+        }
+
+        .download-btn:active {
+            transform: scale(0.98);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Footer for added detail */
+        footer {
+            position: absolute;
+            bottom: 20px; /* Adjusted for better spacing */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Centering */
+            font-size: 0.9rem;
+            color: #bdc3c7;
+            text-align: center; /* Center text */
+        }
+
+        footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Data Entry</h1>
+        <p>Introducing <strong>Data Entry</strong>, your go-to application for adding, encrypting, and securely storing your valuable data. Not only can you store and protect your information, but you can also directly email your encrypted data with ease.</p>
+        <p>Whether it's sensitive documents or important data, <strong>Data Entry</strong> has you covered.</p>
+        
+        <!-- Download Section -->
+        <div class="download-section">
+            <div class="windows-logo">
+                <img src="https://img.icons8.com/color/48/000000/windows-10.png" alt="Windows Logo">
+            </div>
+            <a href="https://drive.google.com/u/0/uc?id=1B0uyww88jLKcbWC60uoWZTgfdFtJPsLd&export=download" target="_blank">
+                <button class="download-btn">Download Now</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ by <a href="#">Skyline Studios</a></p>
+        <p>&copy; 2024 Skyline Studios. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
